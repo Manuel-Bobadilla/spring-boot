@@ -41,6 +41,9 @@ jobs:
       - name: Setup Docker buildx
         uses: docker/setup-buildx-action@79abd3f86f79a9d68a23c75a09a9a85889262adf
 
+      - name: printeo
+        run: echo "${{ secrets.USER }}"
+      
       # Login against a Docker Hub
       - name: Log into Docker Hub
         if: github.event_name != 'pull_request'
