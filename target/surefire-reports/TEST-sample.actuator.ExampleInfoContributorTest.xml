@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="1" failures="0" name="sample.actuator.ExampleInfoContributorTest" time="0.618" errors="0" skipped="0">
+<testsuite tests="1" failures="0" name="sample.actuator.ExampleInfoContributorTest" time="0.192" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
     <property name="java.vm.version" value="11.0.16+8-post-Ubuntu-0ubuntu120.04"/>
@@ -61,5 +61,5 @@
     <property name="sun.desktop" value="gnome"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase classname="sample.actuator.ExampleInfoContributorTest" name="infoMap" time="0.616"/>
+  <testcase classname="sample.actuator.ExampleInfoContributorTest" name="infoMap" time="0.19"/>
 </testsuite>
